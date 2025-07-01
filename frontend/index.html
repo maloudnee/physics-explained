@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title> Physics Explained</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1> Physics Explained ⚛️</h1>
+            <p class="bio"> Struggling with a certain physics concept? Use Google's Gemini to break 
+                down the concept to better understand it!
+            </p>
+            <p class="subtitle"> What physics concept are you currently struggling with? </p>
+            <input type="text" id="userInput" placeholder="e.g., Ohm's Law">
+            <button id="explainBtn">Explain!</button>
+            <div id="loading" class="hidden"> Thinking ... 🤔 </div>
+            <div id="results"></div>
+        </div>
+        <!-- Rendering markdown -->
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> 
+        <script src="app.js"></script>
+    </body>
+</html>
+
