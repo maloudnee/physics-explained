@@ -3,24 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale="1.0">
-        <title> Physics Explained</title>
+        <title> Physics Explained ⚛️</title>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="container">
             <h1> Physics Explained ⚛️</h1>
+
             <p class="bio"> Struggling with a certain physics concept? Use Google's Gemini to break 
                 down the concept to better understand it!
             </p>
+
             <p class="subtitle"> What physics concept are you currently struggling with? </p>
-            <input type="text" id="userInput" placeholder="e.g., Ohm's Law">
+
+            <textarea id="userInput" placeholder="e.g., Ohm's Law"></textarea>
+            
             <button id="explainBtn">Explain!</button>
-            <div id="loading" class="hidden"> Thinking ... 🤔 </div>
-            <div id="results"></div>
+            
+            <div id="loading" class="hidden"> 
+                <h2> Thinking ... 🤔 </h2>
+            </div>
+            
+            <div id="resultSection" class="screen hidden">
+                <h2 id="conceptHeading"></h2>
+                <div id="results"></div>
+                <button id="backBtn"> Ask Another </button>
+            </div>
+      
         </div>
         <!-- Rendering markdown -->
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> 
-        <script src="app.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>
 

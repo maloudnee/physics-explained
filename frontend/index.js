@@ -4,7 +4,7 @@ const loadingDiv = document.getElementById('loading');
 const resultDiv = document.getElementById('results');
 
 explainBtn.addEventListener('click', async () => {
-    const conept = userInput.value.trim();
+    const concept = userInput.value.trim();
     if(!concept){
         alert('Please enter a concept!');
         return;
