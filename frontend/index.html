@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Physics Explained ⚛️</title>
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
@@ -20,18 +20,18 @@
             <textarea id="userInput" placeholder="e.g., Ohm's Law"></textarea>
             
             <button id="explainBtn">Explain!</button>
-            
-            <div id="loading" class="hidden"> 
-                <h2> Thinking ... 🤔 </h2>
-            </div>
-            
-            <div id="resultSection" class="screen hidden">
-                <h2 id="conceptHeading"></h2>
-                <div id="results"></div>
-                <button id="backBtn"> Ask Another </button>
-            </div>
-      
         </div>
+
+        <div id="loading" class="hidden"> 
+            <h2> Thinking ... 🤔 </h2>
+        </div>
+        
+        <div id="resultSection" class="screen hidden">
+            <h2 id="conceptHeading"></h2>
+            <div id="results"></div>
+            <button id="backBtn"> Ask Another </button>
+        </div>
+        
         <!-- Rendering markdown -->
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> 
         <script src="index.js"></script>

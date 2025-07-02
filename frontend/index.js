@@ -30,6 +30,8 @@ explainBtn.addEventListener('click', async () => {
 
         const data = await response.json();
 
+        document.getElementById('conceptHeading').textContent = concept;
+
         // Converting markdown text to HTML
         resultsDiv.innerHTML = marked.parse(data.explanation);
     } catch (error) {
