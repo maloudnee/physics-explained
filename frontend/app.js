@@ -31,7 +31,7 @@ explainBtn.addEventListener('click', async () => {
     fadeTo(inputSection, loadingDiv);
 
     try {
-        const response = await fetch('https://localhost:5000/api/explain', {
+        const response = await fetch('http://127.0.0.1:5000/api/explain', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

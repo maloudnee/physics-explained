@@ -14,7 +14,10 @@ body {
 }
 
 .container {
+    justify-content: center;
+    align-items: center;
     max-width: 600px;
+    flex-direction: column;
     width: 90%;
     text-align: center;
     padding-top: 50px;
@@ -86,18 +89,12 @@ button:hover {
 }
 
 .screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #0A173B;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    z-index: 1000;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    color: #8C9CC8;
     opacity: 1;
     transition: opacity 0.8s ease;
 }
@@ -117,6 +114,7 @@ button:hover {
 }
 
 .screen.hidden {
+    display: none;
     opacity: 0;
     pointer-events: none;
 }
