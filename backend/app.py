@@ -56,6 +56,21 @@ For example, if you presented V=I/R, show how to solve for I=VR. Explain the par
 reason for doing this (e.g., "If you know the voltage and resistance values, you can
 solve for the current value). 
 
+### Metric Prefixes
+Stress to the user the importance of metric prefixes and how these can cause common mistakes.
+Include the different metrix prefixes following this format:
+- (T) tera: 10¹²
+- (G) giga: 10⁹
+- (m) mili: 10⁻³
+- (μ) micro: 10⁻⁶
+and so on.. 
+Also include a practice problem of how this can be used in the context for example a practice problem 
+involving metric prefixes related to the concept capacitors. A 4µF capacitor is charged to a voltage of 12V.
+What is the charge stored on the capacitor (in coulombs)?
+Provide the answer as follows: To approach this question we must use the equation Q = VV.
+You must convert 4µF to F using the metric prefixes you know that that is 4 × 10⁻⁶. Plug 
+the values in Q = (4 × 10⁻⁶)(12) = 4.8 × 10⁻⁵C that is the charge stored in the capacitor.
+
 
 ### Youtube Videos for Further Learning
 Provide 3 links to high-quiality, reputable youtube bideos that explain "{concept}". Choose videos
@@ -65,8 +80,21 @@ university channels.
 * **Video 2:** [Link] - A brief description of what the video covers.
 * **Video 3:** [Link] - A brief description of what the video covers.
 
-### Pop Quiz!
-Create a 5-question multiple-choice quiz to test the user's understanding. For each question, provide
+### Quiz!
+Create a 5-question multiple-choice quiz to test the user's understanding. Each question should be detailed 
+an example question for Ohm's Law is: Which of the following statements is FALSE?
+(A)If an electron is moving in the direction of an electric field, its potential energy increases.
+(B) If 𝐸1 is the effect due to charge 𝑄1, and 𝐸2 is the effect due to charge 𝑄2, then according to 
+superposition principle, the net effect E will be, 𝐸 = 𝐸1 × 𝐸2.
+(C)When defining electric potential as potential energy per unit charge, we divide the potential 
+energy by the test charge, not the source charge.
+Another example question (this is not related to Ohm's Law) is: What is the voltage across an 12.0 nm-thick cell 
+membrane if the electric field strength across it is 6.5 kV/m?
+(A) 7.8 × 10⁻⁵ V
+(B) 7.8 × 10⁻² V
+(C) 7.8 V
+(D) 78 V
+For each question, provide
 4 options (A, B, C, D) and identify the correct answer. 
 
 **Question 1:** [Question Text]
@@ -74,16 +102,15 @@ Create a 5-question multiple-choice quiz to test the user's understanding. For e
 - (B) [Option]
 - (C) [Option]
 - (D) [Option]
-- **Correct Answer:[Letter]
 
 **Question 2:** ...
 **Question 3:** ...
 **Question 4:** ...
 **Question 5:** ...
 
-### Quiz Answer Explanation
-Provide a detailed explanation for each quiz question's answer. Explain why the correct answer is right
-and why the other options are wrong. This is crucial for learning
+### Quiz Answer Key
+Start off with the question's correct answer. Provide a detailed explanation for each quiz question's answer. 
+Explain why the correct answer is right and why the other options are wrong. This is crucial for learning.
 
 **Explanation for Q1:** [Detailed Explanation]
 
